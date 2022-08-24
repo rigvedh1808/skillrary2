@@ -5,27 +5,27 @@
       <![CDATA[data not matching]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-08-24T13:43:16 IST" name="Default suite" finished-at="2022-08-24T13:43:21 IST" duration-ms="5512">
+  <suite started-at="2022-08-24T21:02:24 IST" name="Default suite" finished-at="2022-08-24T21:02:31 IST" duration-ms="7623">
     <groups>
     </groups>
-    <test started-at="2022-08-24T13:43:16 IST" name="Default test" finished-at="2022-08-24T13:43:21 IST" duration-ms="5512">
+    <test started-at="2022-08-24T21:02:24 IST" name="Default test" finished-at="2022-08-24T21:02:31 IST" duration-ms="7623">
       <class name="com.educationalDomain.Wipro.Scripts.TestCase4">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T13:43:15 IST" name="configBS" finished-at="2022-08-24T13:43:16 IST" duration-ms="799" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:23 IST" name="configBS" finished-at="2022-08-24T21:02:24 IST" duration-ms="790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T13:43:16 IST" name="openApp" finished-at="2022-08-24T13:43:18 IST" duration-ms="2694" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:24 IST" name="openApp" finished-at="2022-08-24T21:02:28 IST" duration-ms="4249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc4()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T13:43:18 IST" name="tc4" finished-at="2022-08-24T13:43:21 IST" duration-ms="2578" status="PASS">
+        <test-method signature="tc4()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:28 IST" name="tc4" finished-at="2022-08-24T21:02:31 IST" duration-ms="3125" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[data not matching]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc4 -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T13:43:21 IST" name="closeApp" finished-at="2022-08-24T13:43:21 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:31 IST" name="closeApp" finished-at="2022-08-24T21:02:31 IST" duration-ms="213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T13:43:21 IST" name="configAS" finished-at="2022-08-24T13:43:22 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:31 IST" name="configAS" finished-at="2022-08-24T21:02:32 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
