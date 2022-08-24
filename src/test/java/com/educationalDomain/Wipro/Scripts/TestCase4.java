@@ -22,7 +22,7 @@ public class TestCase4 extends BaseClass
 		SkillraryDemoLoginPage s = l.demoApp(driver);
 		utilities.switchTabs(driver);
 		utilities.dropdown(s.getDropdown(), fu.getPropertyFile("dropdown"));
-		TestingPage t = s.testing(driver);
+		s.testing(driver);
 		fu.queryExecution("select * from verification", 1, "fhdfh");
 		
 		Assert.assertEquals(driver.getTitle(), fu.getPropertyFile("title4"));
