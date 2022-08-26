@@ -95,7 +95,7 @@ public class FileUtilities
 		return expdata;
 	}
 	/**
-	 * Used to close the database connection
+	 * Used to disconnect the database connection
 	 * @throws SQLException
 	 */
 	public void closeDB() throws SQLException

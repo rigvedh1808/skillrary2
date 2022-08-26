@@ -23,7 +23,7 @@ public class TestCase4 extends BaseClass
 		utilities.switchTabs(driver);
 		utilities.dropdown(s.getDropdown(), fu.getPropertyFile("dropdown"));
 		s.testing(driver);
-		fu.queryExecution("select * from verification", 1, "fhdfh");
+		fu.queryExecution("select * from verification", 1, "INR 19.00");
 		
 		Assert.assertEquals(driver.getTitle(), fu.getPropertyFile("title4"));
 	}
