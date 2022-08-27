@@ -1,46 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="12" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[data not matching]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-08-24T21:02:24 IST" name="Default suite" finished-at="2022-08-24T21:02:31 IST" duration-ms="7623">
+  <suite started-at="2022-08-27T21:22:16 IST" name="Suite" finished-at="2022-08-27T21:23:08 IST" duration-ms="51195">
     <groups>
     </groups>
-    <test started-at="2022-08-24T21:02:24 IST" name="Default test" finished-at="2022-08-24T21:02:31 IST" duration-ms="7623">
-      <class name="com.educationalDomain.Wipro.Scripts.TestCase4">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:23 IST" name="configBS" finished-at="2022-08-24T21:02:24 IST" duration-ms="790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:24 IST" name="openApp" finished-at="2022-08-24T21:02:28 IST" duration-ms="4249" status="PASS">
+    <test started-at="2022-08-27T21:22:16 IST" name="Test" finished-at="2022-08-27T21:23:08 IST" duration-ms="51195">
+      <class name="com.educationalDomain.Wipro.Scripts.TestCase3">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase3@294425a7]" started-at="2022-08-27T21:22:55 IST" name="openApp" finished-at="2022-08-27T21:22:57 IST" duration-ms="2101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc4()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:28 IST" name="tc4" finished-at="2022-08-24T21:02:31 IST" duration-ms="3125" status="PASS">
+        <test-method signature="tc3()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase3@294425a7]" started-at="2022-08-27T21:22:57 IST" name="tc3" finished-at="2022-08-27T21:23:03 IST" duration-ms="5625" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[data not matching]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tc4 -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:31 IST" name="closeApp" finished-at="2022-08-24T21:02:31 IST" duration-ms="213" status="PASS">
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase3@294425a7]" started-at="2022-08-27T21:23:03 IST" name="closeApp" finished-at="2022-08-27T21:23:03 IST" duration-ms="342" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc4 status=SUCCESS method=TestCase4.tc4()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27] output=data not matching]]]>
+                <![CDATA[[TestResult name=tc3 status=SUCCESS method=TestCase3.tc3()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase3@294425a7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@5ffead27]" started-at="2022-08-24T21:02:31 IST" name="configAS" finished-at="2022-08-24T21:02:32 IST" duration-ms="374" status="PASS">
+      </class> <!-- com.educationalDomain.Wipro.Scripts.TestCase3 -->
+      <class name="com.educationalDomain.Wipro.Scripts.TestCase4">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@67d48005]" started-at="2022-08-27T21:23:03 IST" name="openApp" finished-at="2022-08-27T21:23:05 IST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc4()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@67d48005]" started-at="2022-08-27T21:23:05 IST" name="tc4" finished-at="2022-08-27T21:23:07 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[data not matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@67d48005]" started-at="2022-08-27T21:23:07 IST" name="closeApp" finished-at="2022-08-27T21:23:08 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc4 status=SUCCESS method=TestCase4.tc4()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase4@67d48005] output=data not matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.educationalDomain.Wipro.Scripts.TestCase4 -->
+      <class name="com.educationalDomain.Wipro.Scripts.TestCase1">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase1@a514af7]" started-at="2022-08-27T21:22:16 IST" name="configBS" finished-at="2022-08-27T21:22:16 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase1@a514af7]" started-at="2022-08-27T21:22:16 IST" name="openApp" finished-at="2022-08-27T21:22:19 IST" duration-ms="2815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase1@a514af7]" started-at="2022-08-27T21:22:19 IST" name="tc1" finished-at="2022-08-27T21:22:22 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase1@a514af7]" started-at="2022-08-27T21:22:22 IST" name="closeApp" finished-at="2022-08-27T21:22:23 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=TestCase1.tc1()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase1@a514af7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase1@a514af7]" started-at="2022-08-27T21:23:08 IST" name="configAS" finished-at="2022-08-27T21:23:08 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.educationalDomain.Wipro.Scripts.TestCase4 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.educationalDomain.Wipro.Scripts.TestCase1 -->
+      <class name="com.educationalDomain.Wipro.Scripts.TestCase2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:23 IST" name="openApp" finished-at="2022-08-27T21:22:25 IST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:25 IST" name="tc2" data-provider="readExcelData" finished-at="2022-08-27T21:22:34 IST" duration-ms="8344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prateekkkkk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prateekkkk@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test message please ignore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:34 IST" name="closeApp" finished-at="2022-08-27T21:22:34 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=TestCase2.tc2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:34 IST" name="openApp" finished-at="2022-08-27T21:22:36 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:36 IST" name="tc2" data-provider="readExcelData" finished-at="2022-08-27T21:22:44 IST" duration-ms="8478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vasa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prateekkkk@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test message please ignore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:44 IST" name="closeApp" finished-at="2022-08-27T21:22:45 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=TestCase2.tc2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:45 IST" name="openApp" finished-at="2022-08-27T21:22:47 IST" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:47 IST" name="tc2" data-provider="readExcelData" finished-at="2022-08-27T21:22:55 IST" duration-ms="8282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prateekkkk@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test message please ignore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb]" started-at="2022-08-27T21:22:55 IST" name="closeApp" finished-at="2022-08-27T21:22:55 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=TestCase2.tc2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.educationalDomain.Wipro.Scripts.TestCase2@6379eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.educationalDomain.Wipro.Scripts.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
