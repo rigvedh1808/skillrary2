@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 import com.educationalDomain.Wipro.POMpages.LoginPage;
 import com.educationalDomain.Wipro.POMpages.SkillraryDemoLoginPage;
-import com.educationalDomain.Wipro.POMpages.TestingPage;
 import com.educationalDomain.Wipro.genericLib.BaseClass;
 
 public class TestCase4 extends BaseClass
