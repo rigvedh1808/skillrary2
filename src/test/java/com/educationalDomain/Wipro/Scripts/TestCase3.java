@@ -14,7 +14,7 @@ import com.educationalDomain.Wipro.genericLib.BaseClass;
 public class TestCase3 extends BaseClass
 {
 	@Test
-	public void tc3() throws FileNotFoundException, IOException
+	public void tc3() throws FileNotFoundException, IOException, InterruptedException
 	{
 		
 		test=reports.createTest("tc3");
@@ -22,6 +22,7 @@ public class TestCase3 extends BaseClass
 		CoreJavaPage c = l.searchcourse(fu.getPropertyFile("cn"), driver);
 		WishlistPage w = c.corejavaselenium(driver);
 		w.getAccpetbtn().click();
+		Thread.sleep(5000);
 		utilities.switchframe(driver);
 		w.playpause();
 		utilities.switchbackfromframe(driver);
